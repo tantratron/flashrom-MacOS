@@ -15,7 +15,6 @@
 		2A9CCCEE273DB0E300386A99 /* lsusb in Copy 'bin' */ = {isa = PBXBuildFile; fileRef = 2A9CCCEA273DB0C800386A99 /* lsusb */; };
 		2AB9DF0724712B1200677A16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AB9DF0524712B1200677A16 /* InfoPlist.strings */; };
 		2AB9DF09247132BD00677A16 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB9DF08247132BD00677A16 /* Preferences.swift */; };
-		2ABF4832266FA4910061B143 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 2ABF4831266FA4910061B143 /* Sparkle */; };
 		2ABF4838266FA5EB0061B143 /* LetsMoveIt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF4837266FA5EB0061B143 /* LetsMoveIt.swift */; };
 		2AEC297A246FF35D00ED7AD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC2979246FF35D00ED7AD1 /* AppDelegate.swift */; };
 		2AEC297C246FF35D00ED7AD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC297B246FF35D00ED7AD1 /* ViewController.swift */; };
@@ -79,16 +78,6 @@
 		2AF7DE792472844000C07B69 /* patch.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = patch.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		2AEC2973246FF35D00ED7AD1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2ABF4832266FA4910061B143 /* Sparkle in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		2AEC296D246FF35D00ED7AD1 = {
@@ -169,9 +158,6 @@
 			dependencies = (
 			);
 			name = "G-Flash";
-			packageProductDependencies = (
-				2ABF4831266FA4910061B143 /* Sparkle */,
-			);
 			productName = gflash;
 			productReference = 2AEC2976246FF35D00ED7AD1 /* G-Flash.app */;
 			productType = "com.apple.product-type.application";
@@ -201,9 +187,6 @@
 				de,
 			);
 			mainGroup = 2AEC296D246FF35D00ED7AD1;
-			packageReferences = (
-				2ABF4830266FA4910061B143 /* XCRemoteSwiftPackageReference "Sparkle" */,
-			);
 			productRefGroup = 2AEC2977246FF35D00ED7AD1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -485,24 +468,7 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		2ABF4830266FA4910061B143 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/sparkle-project/Sparkle";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.6.4;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 
-/* Begin XCSwiftPackageProductDependency section */
-		2ABF4831266FA4910061B143 /* Sparkle */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2ABF4830266FA4910061B143 /* XCRemoteSwiftPackageReference "Sparkle" */;
-			productName = Sparkle;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2AEC296E246FF35D00ED7AD1 /* Project object */;
 }
