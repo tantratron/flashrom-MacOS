@@ -1,4 +1,4 @@
-MacOS version able to offer GUI of flashrom.org application
+MacOS version able to offer GUI of [flashrom.org](https://www.flashrom.org/) application
 
 Initial version worked with 1.2 flashrom so would not cover all chip memories, it worked under MacOS 10.14 and above MacOS.
 
