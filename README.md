@@ -6,4 +6,4 @@ An update to 1.4 was done by the creator on november 17thn 2024 but worked only 
 
 It is still not clear how the conversion from https://github.com/flashrom/flashrom is done in the Xcode project (no compilation is done but rather patching).
 
-Corrections in the Xcode project have been made so flashrom 1.4 can now work again with MacOS 10.14 and compiled with Xcode 11.3.1
+Corrections in the Xcode project have been made so flashrom 1.4 can now work again with MacOS 10.14 (Xcode 11.3.1 has been used).
