@@ -10,6 +10,8 @@ Corrections in the Xcode project have been made so flashrom 1.4 can now work aga
 
 IMPORTANT: the G-flash application will work directly under Monterey (tested on two iMac) but under Mojave (tested on tow iMac and one MacBook Air), it requires to patch libusb and libftdi packages. The easiest way consists installing brew then install both libraries from Terminal:
 
+xcode-select --install
+
 curl -fsSL -o install.sh https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
 
 /bin/bash install.sh
