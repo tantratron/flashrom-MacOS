@@ -12,7 +12,7 @@ IMPORTANT: the G-flash application will work directly under Monterey (tested on 
 
 curl -fsSL -o install.sh https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
 
-Sudo access requires to enter password as an administrator
+/bin/bash install.sh
 
 brew install libusb
 
